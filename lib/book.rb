@@ -12,3 +12,4 @@ class Book
 end
 
 book = book.new("And Then There Were None", "Agatha Christie", 272, "Mystery")
+book.turn_page
