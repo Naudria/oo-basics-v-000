@@ -6,3 +6,5 @@ class Book
     @genre = genre
   end
 end
+
+book.new("And Then There Were None", "Agatha Christie", 272, "Mystery")
