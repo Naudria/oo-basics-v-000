@@ -9,7 +9,7 @@ class shoe
   end
 
   def cobble
-
+    shoe.new
   end
 
 end
