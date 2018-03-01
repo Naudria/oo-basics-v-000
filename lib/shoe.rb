@@ -1,5 +1,5 @@
 # Make your shoe class here!
-class shoe
+class Shoe
 
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -9,7 +9,7 @@ class shoe
   end
 
   def cobble
-    shoe.new
+    self.condition = "new"
   end
 
 end
